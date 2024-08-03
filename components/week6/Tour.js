@@ -8,7 +8,7 @@ export default function Tour(props) {
             <Text style={{ fontSize: 24, fontWeight: 'bold' }}>Tour</Text>
             <Text style={{ fontSize: 18, color: "gray", marginVertical: 10 }}>Let find out what most interesting things</Text>
             <ScrollView horizontal={true}>
-                <View style={{ flexDirection: 'row' }}>
+                <View style={{ flexDirection: 'row'}}>
                     {/* <TourItem />
                 <TourItem />
                 <TourItem /> */}

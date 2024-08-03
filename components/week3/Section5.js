@@ -13,5 +13,7 @@ export default function Section5() {
             <MyIcon title="Paw" name="paw" size={30} color="orange" />
 
         </View>
+
+        
     );
 }
