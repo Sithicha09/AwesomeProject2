@@ -37,10 +37,13 @@ export default function Event(props) {
                     ({ item, index }) => {
                         console.log(item, index, item.uri);
                         return (
-                            <View style={{ marginRight: 10 ,backgroundColor:'lightsteelblue' ,borderTopRightRadius:10 ,borderTopLeftRadius:10,borderBottomLeftRadius: 10, borderBottomRightRadius: 10}}>
-                                <Image source={{ uri: item.uri }} style={{ width: 350, height: 150, borderTopRightRadius:10 ,borderTopLeftRadius:10 }} />
+                            <View style={{ marginRight: 10 ,backgroundColor:'lightsteelblue' ,borderTopRightRadius:10 ,borderTopLeftRadius:10,
+                            borderBottomLeftRadius: 10, borderBottomRightRadius: 10}}>
+                                <Image source={{ uri: item.uri }} style={{ width: 350, height: 150, borderTopRightRadius:10 ,
+                                    borderTopLeftRadius:10 }} />
                                 {/* Text */}
-                                <View style={{ flexDirection: 'row', borderWidth: 10, borderBottomLeftRadius: 10, borderBottomRightRadius: 10, borderColor: 'lightsteelblue' }}>
+                                <View style={{ flexDirection: 'row', borderWidth: 10, borderBottomLeftRadius: 10, borderBottomRightRadius: 10,
+                                     borderColor: 'lightsteelblue' }}>
                                     <View style={{ padding: 10 }}>
                                         <Text style={{ fontSize: 20, color: 'red', textAlign: 'center', fontWeight: 'bold' }}>{item.month}</Text>
                                         <Text style={{ fontSize: 20, color: 'black', textAlign: 'center' }}>{item.date}</Text>
